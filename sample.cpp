@@ -1,9 +1,6 @@
 /**
 darkemeralddd
 **/
-#pragma GCC optimize("O3")
-#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,avx2,fma")
-#pragma GCC optimize("unroll-loops")
 #include <bits/stdc++.h>
 #define l2 long long
 #define st first
@@ -18,6 +15,7 @@ darkemeralddd
 #define ladd(a) a=" "+a
 #define bit(x,y) (((y)>>(x))&1)
 #define infinity() for(;;)
+#define cntbit(x) __builtin_popcount((x))
 const l2 mod = 1000000007;
 using namespace std;
 int main() {
